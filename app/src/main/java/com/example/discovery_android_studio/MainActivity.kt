@@ -8,4 +8,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+    /** Called when the user taps the Send button */
+    fun sendMessage(view: View) {
+        // Do something in response to button
+    }
+
+    /**
+     * Le getting started
+     * https://developer.android.com/training/basics/firstapp/starting-activity */
 }
